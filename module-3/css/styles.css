@@ -81,18 +81,7 @@ p {
     background-color: #bdbbbb;
     color: black;
 }*/
-#t1 {
-    background-color: #efbaba;
-    color: black;
-}
-#t2 {
-    background-color: #c14543;
-    color: white;
-}
-#t3 {
-    background-color: #e5d198;
-    color: black;
-}
+
 #tile {
     position: relative;
     text-align: left;
@@ -100,8 +89,7 @@ p {
 .section-title {
     font-size: 125%;
     position: relative;
-    
-    border: 1px solid black;
+    color: black;
     padding-left: 20px;
     padding-right: 20px;
 }
