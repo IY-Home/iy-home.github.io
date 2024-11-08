@@ -120,9 +120,6 @@ p {
   p {
        margin-left: 1.6vw;
   }
-  .ld-4 {
-        width: 33.33%;
-  }
 }
 
 /********** Medium devices only **********/
@@ -130,9 +127,7 @@ p {
   p {
        margin-left: 1.6vw;
   }
-  .ld-4 {
-        width: 33.33%;
-  }
+
   
 }
 
@@ -141,12 +136,7 @@ p {
 p {
        margin-left: 2vw;
   }
-  .md-6 {
-        width: 50%;
-  }
-  .md-12 {
-        width: 105.7%;
-  }
+ 
 }
 
 /********** Extra Small devices only **********/
@@ -154,7 +144,5 @@ p {
 p {
        margin-left: 4.6vw;
   }
- .xd-12 {
-        width: 100%;
-  }
+ 
 }
