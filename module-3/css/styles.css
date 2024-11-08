@@ -10,13 +10,13 @@
 
 .regular {
   font-family: "Comic Neue", cursive;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
 .bold {
   font-family: "Comic Neue", cursive;
-  font-weight: 850;
+  font-weight: bold;
   font-style: normal;
 }
 
