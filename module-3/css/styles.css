@@ -1,120 +1,171 @@
+/*Fonts*/
+/*Comic Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
 /********** Base styles **********/
 body {
-  font-family: sans-serif;
+  font-family: "Comic Neue", cursive;
   text-align: center;
 }
 * {
-  //box-sizing: border-box;
+  box-sizing: border-box;
 }
 h1 {
   margin-bottom: 15px;
+  color: #111111;
 }
 
 p {
+    font-size: 16px;
   border: 1px solid black;
-  background-color: #A52A2A;
   width: 90%;
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
+  padding-left: 5px;
+  /*margin-right: 6vw;
+  margin-left: 6vw;
+  font-family: Helvetica;*/
   color: white;
+  position: relative;
+  
+  
 }
-
+#item-1, #item-2, #item-3 {
+    background-color: #999999;
+    color: black;
+}
+/*#item-1 {
+    background-color: #ffd49c;
+    color: black;
+}
+#item-2 {
+    background-color: #573202;
+    color: white;
+}
+#item-3 {
+    background-color: #bdbbbb;
+    color: black;
+}*/
+#t1 {
+    background-color: #efbaba;
+    color: black;
+}
+#t2 {
+    background-color: #c14543;
+    color: white;
+}
+#t3 {
+    background-color: #e5d198;
+    color: black;
+}
+#tile {
+    position: relative;
+    text-align: left;
+}
+.section-title {
+    font-size: 125%;
+    position: absolute;
+    top: 0;
+    right:0;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-text {
+    text-align: left;
+    position: relative;
+    top:12px;
+}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  text-align: right;
+  
+}
+
+.row div {
+    float: left;
 }
 
 .menu-item {
   padding-right: 15px;
+ 
 }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
+  p {
+       margin-left: 1.6vw;
   }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
+  .ld-4 {
+        width: 33.33%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
+  p {
+       margin-left: 1.6vw;
   }
-  .col-md-1 {
-    width: 8.33%;
+  .ld-4 {
+        width: 33.33%;
   }
-  .col-md-2 {
-    width: 16.66%;
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+p {
+       margin-left: 2vw;
   }
-  .col-md-3 {
-    width: 25%;
+  .md-6 {
+        width: 50%;
   }
-  .col-md-4 {
-    width: 33.33%;
+  .md-12 {
+        width: 105.7%;
   }
-  .col-md-5 {
-    width: 41.66%;
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 768px) {
+p {
+       margin-left: 4.6vw;
   }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
+ .xd-12 {
+        width: 100%;
   }
 }
