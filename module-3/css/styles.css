@@ -55,9 +55,9 @@ p {
     font-size: 16px;
   border: 1px solid black;
   width: 90%;
-  height: auto;
+  height: 30vh;
   padding-left: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   /*margin-right: 6vw;
   margin-left: 6vw;
   font-family: Helvetica;*/
