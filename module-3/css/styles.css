@@ -102,8 +102,9 @@ p {
 }
 /* Simple Responsive Framework. */
 .row {
-  width: 10%;
-  
+  width: 100%;
+  position: relative;
+  left:5vw;
 }
 
 .row div {
