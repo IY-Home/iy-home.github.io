@@ -117,32 +117,19 @@ p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  p {
-       margin-left: 1.6vw;
-  }
+ 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  p {
-       margin-left: 16vw;
-  }
-
-  
+ 
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-p {
-       margin-left: 2vw;
-  }
- 
 }
 
 /********** Extra Small devices only **********/
 @media (max-width: 768px) {
-p {
-       margin-left: 4.6vw;
-  }
- 
+
 }
