@@ -111,11 +111,11 @@ function buildAndShowHomeHTML (categories) {
       // syntax because the substitution of {{randomCategoryShortName}} becomes an argument
       // being passed into the $dc.loadMenuItems function. Think about what that argument needs
       // to look like. For example, a valid call would look something like this:
-      // $dc.loadMenuItems('L')
+      $dc.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      // var homeHtmlToInsertIntoMainPage = ....
+      var homeHtmlToInsertIntoMainPage = {{chosenCategoryShortName}};
 
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
